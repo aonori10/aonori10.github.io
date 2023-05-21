@@ -68,10 +68,10 @@ li {
 /*-------------------------------------------
 Mainvisual
 -------------------------------------------*/
-#sakura {
+#mainvisual {
   margin-bottom: 80px;
 }
-#sakura img {
+#mainvisual img {
   width: 100%;
   max-width: 2500px;
   height: 600px;
