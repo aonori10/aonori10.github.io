@@ -73,7 +73,7 @@ span{
 .circle1{
   border-radius:100%;
   box-sizing:border-box;
-  border:5px dotted green;
+  border:10px dotted green;
   animation:3s linear infinite rotation;
 
 }
