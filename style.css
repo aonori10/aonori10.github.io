@@ -66,17 +66,27 @@ li {
 }
 span{
   display: flex;
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   margin:30px;
 }
 .circle1{
   border-radius:100%;
-  border:3px dotted green;
+  border:5px dotted green;
   animation:3s linear infinite rotation;
-
 }
-
+@keyframes rotation1{
+  0%{ transform:rotate(0);}
+  100%{ transform:rotate(360deg); }
+}
+@keyframes rotation2{
+  0%{ transform:rotateX(0);}
+  100%{ transform:rotateX(360deg); }
+}
+@keyframes rotation3{
+  0%{ transform:rotateY(0);}
+  100%{ transform:rotateY(360deg); }
+}
 /*-------------------------------------------
 Mainvisual
 -------------------------------------------*/
